@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/*css reset*/
+body{ color: white;
+    font-family: 'Caprasimo', cursive;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.img.jpg);
+}
+.left{ 
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.left img{
+    width: 135px;
+}
+.left div{
+    
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 55%;
+    margin: 40px auto;
+   
+}
+
+
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block; 
+    font-size: 26px;
+}
+.navbar li a{
+    color: white;
+text-decoration: none;
+padding: 15px 10px;
+}s
+
+.navbar li a:hover, .navbar li a:active{
+    color: gray;
+text-decoration: underline;
+} 
+
+.btn{
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+
+}
+
+.btn :hover{
+ background-color: rgb(40, 39, 39);
+
+}
+.container{
+   border: 2px solid white;
+   margin:150px 70px;
+padding: 4px 2px;
+width: 40%;
+border-radius: 2px;
+}
+.form_group input{
+text-align: center;
+display: block;
+width: 40%;
+padding: 6px 4px;
+border:  2px auto;
+margin:  11px auto;
+font-family: 'Caprasimo', cursive;
+font-weight: bold;
+}
+
+.container{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 120px;
+    margin: 20px 250px;
+}
+</style>
+<body>
+    <header class="header">
+<div class="left">
+<img src="logo.jpg" alt="">
+<div>BHATI FITNESS</div>
+</div>
+<div class="mid">
+     <ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Fitness Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+<div class="right">
+     <button class="class">Call Us Now</button><button class="class">Email Us</button>
+  
+</div>
+    </header>
+    <div class="container">
+ <h1>Join the best GYM of Jodhpur now</h1>    
+ <form action="noaction.php">
+<div class="from_grop">
+    <input type="text" name="" placeholder="Enter your name">
+
+</div><div class="from_group">
+    <input type="text" name="" placeholder="Enter your Age">
+
+</div><div class="from_group">
+    <input type="text" name="" placeholder="Enter your Gender">
+
+</div><div class="from_group">
+    <input type="text" name="" placeholder="Enter your Locality ">
+
+</div>
+<button class="btn">sumbit</button>
+</form>
+</div>
+</body>
+</html>
